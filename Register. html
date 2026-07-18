@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | CardBill Hub</title>
+
+    <link rel="stylesheet" href="register.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="left-side">
+        <h1>CardBill Hub</h1>
+
+        <p>
+            Join thousands of users making bill payments
+            easier, faster and more secure.
+        </p>
+
+        <img src="images/canvas.png" alt="">
+    </div>
+
+
+    <div class="right-side">
+
+        <form>
+
+            <h2>Create Account</h2>
+
+            <div class="input-box">
+                <i class="fa fa-user"></i>
+                <input type="text" placeholder="Full Name" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa fa-envelope"></i>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa fa-phone"></i>
+                <input type="tel" placeholder="Phone Number" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa fa-lock"></i>
+                <input type="password" id="password" placeholder="Password" required>
+
+                <span onclick="togglePassword()">
+                    <i class="fa fa-eye"></i>
+                </span>
+            </div>
+
+            <div class="input-box">
+                <i class="fa fa-lock"></i>
+                <input type="password" placeholder="Confirm Password" required>
+            </div>
+
+            <button>Create Account</button>
+
+            <p>
+                Already have an account?
+
+                <a href="login.html">
+                    Sign In
+                </a>
+            </p>
+
+        </form>
+
+    </div>
+
+</div>
+
+<script src="register.js"></script>
+
+</body>
+</html>
