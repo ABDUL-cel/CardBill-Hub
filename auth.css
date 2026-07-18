@@ -36,11 +36,11 @@ body {
 
     background:linear-gradient(135deg,#2563EB,#3B82F6);
     color:white;
-    padding:20px;
+    padding:50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: column;
 }
 
 .login-left img{
