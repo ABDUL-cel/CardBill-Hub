@@ -13,14 +13,14 @@ body{
     background:linear-gradient(135deg,#2563EB,#1D4ED8);
 
     display:flex;
-
+    flex-direction: column;
     justify-content:center;
 
     align-items:center;
 
     min-height:100vh;
 
-    padding:20px;
+    padding:40px;
 
 }
 
