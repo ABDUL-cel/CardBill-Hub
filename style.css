@@ -81,7 +81,7 @@ nav a:hover{
 .hero{
      width:90%;
     margin:auto;
-
+    background: white;
     min-height:90vh;
 
     display:flex;
@@ -158,6 +158,7 @@ nav a:hover{
 .services{
 
     padding:80px 10%;
+    background: white;
 
 }
 
@@ -212,7 +213,7 @@ nav a:hover{
 
 .why{
 
-    background:#2563eb;
+    background: Blue Gradien;
 
     color:white;
 
@@ -369,6 +370,7 @@ justify-content:center;
     width: 90%;
     margin: 80px auto;
     text-align: center;
+    background: lightgray;
 }
 
 .trusted h2{
@@ -431,7 +433,7 @@ justify-content:center;
 
     width:90%;
     margin:120px auto;
-
+    background: white;
 }
 
 .section-heading{
@@ -518,6 +520,7 @@ justify-content:center;
     width:90%;
     margin:120px auto;
     text-align:center;
+    background: lightgray;
 
 }
 
@@ -609,6 +612,7 @@ justify-content:center;
 
     width:90%;
     margin:120px auto;
+    background: white;
 
 }
 
