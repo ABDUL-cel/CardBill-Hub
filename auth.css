@@ -223,3 +223,33 @@ button:hover{
     font-weight:bold;
 
 }
+
+@media(max-width:900px){
+
+.login-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.login-left{
+
+    text-align:center;
+
+    padding:50px 30px;
+
+}
+
+.login-right{
+
+    padding:50px 30px;
+
+}
+
+.login-left h1{
+
+    font-size:35px;
+
+}
+
+}
