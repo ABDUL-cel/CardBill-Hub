@@ -9,12 +9,12 @@
 }
 body {
     background: #fff;
-    padding:40px;
+    padding:20px;
 
 }
 .login-page {
     display: flex;
-    justify-content: column;
+    justify-content: center;
     align-items: center;
     padding: 20px;
 }
@@ -24,8 +24,6 @@ body {
     width:800px;
 
     background:white;
-
-  
     border-radius:25px;
 
     overflow:hidden;
@@ -37,7 +35,6 @@ body {
 .login-left{
 
     background:linear-gradient(135deg,#2563EB,#3B82F6);
-
     color:white;
     padding:70px 50px;
 }
