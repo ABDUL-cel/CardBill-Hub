@@ -1,111 +1,135 @@
-
-
-</html><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Login | CardBill Hub</title>
 
+    <link rel="icon" type="image/png" href="images/canvas.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="auth.css">
-        <link rel="icon" type="image/png" href="images/canvas.png">
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
 </head>
 
 <body>
 
-<section class="login-page">
+<div class="container">
 
-    <div class="login-container">
+    <!-- LEFT SIDE -->
+    <div class="left-side">
 
-        <!-- LEFT SIDE -->
+        <img src="images/canvas.png" alt="CardBill Hub Logo" class="logo">
 
-        <div class="login-left">
+        <h1>Welcome Back!</h1>
 
-            <img src="images/canvas.png" alt="CardBill Hub Logo">
+        <p>
+            Sign in to your CardBill Hub account and continue enjoying
+            fast, secure and reliable digital payment services.
+        </p>
 
-            <h1>Welcome Back!</h1>
-
-            <p>
-                Sign in to your CardBill Hub account and continue enjoying
-                fast, secure and reliable digital payment services.
-            </p>
-
-            <div class="features">
-
-                <div>
-                    <i class="fa-solid fa-circle-check"></i>
-                    Secure Login
-                </div>
-
-                <div>
-                    <i class="fa-solid fa-circle-check"></i>
-                    Instant Transactions
-                </div>
-
-                <div>
-                    <i class="fa-solid fa-circle-check"></i>
-                    24/7 Customer Support
-                </div>
-
+        <div class="features">
+            <div>
+                <i class="fa-solid fa-circle-check"></i>
+                Secure Login
             </div>
 
+            <div>
+                <i class="fa-solid fa-circle-check"></i>
+                Instant Transactions
+            </div>
+
+            <div>
+                <i class="fa-solid fa-circle-check"></i>
+                24/7 Customer Support
+            </div>
         </div>
 
-        <!-- RIGHT SIDE -->
+    </div>
 
-        <div class="login-right">
+    <!-- RIGHT SIDE -->
+    <div class="right-side">
 
-            <h2>Login</h2>
+        <form>
+
+            <h2>Login to Your Account</h2>
 
             <p class="subtitle">
-                Access your account
+                Access your CardBill Hub dashboard
             </p>
 
-            <form>
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email Address" required>
+            </div>
 
-                <div class="input-box">
+            <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
 
-                    <i class="fa-solid fa-envelope"></i>
+                <input type="password" id="password" placeholder="Password" required>
 
-                    <input
-                    type="email"
-                    placeholder="Email Address"
-                    required>
+                <span class="toggle-password" onclick="togglePassword()">
+                    <i class="fa-solid fa-eye"></i>
+                </span>
+            </div>
 
-                </div>
+            <div class="remember">
+                <label>
+                    <input type="checkbox">
+                    Remember me
+                </label>
 
-                <div class="input-box">
+                <a href="#">Forgot Password?</a>
+            </div>
 
-                    <i class="fa-solid fa-lock"></i>
+            <button type="submit" class="login-btn">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                Login
+            </button>
 
-                    <input
-                    type="password"
-                    placeholder="Password"
-                    required>
+            <div class="divider">
+                <span>OR</span>
+            </div>
 
-                </div>
+            <button type="button" class="google-btn">
+                <i class="fa-brands fa-google"></i>
+                Continue with Google
+            </button>
 
-                <div class="remember">
+            <p class="register">
+                Don't have an account?
+                <a href="register.html">Create one here</a>
+            </p>
 
-                    <label>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <span>|</span>
+                <a href="#">Terms of Service</a>
+            </div>
 
-                        <input type="checkbox">
+        </form>
 
-                        Remember Me
+    </div>
 
-                    </label>
+</div>
 
-                    <a href="#">
-                        Forgot Password?
-                    </a>
+<script>
+function togglePassword() {
+    const password = document.getElementById('password');
+    const icon = document.querySelector('.toggle-password i');
 
+    if (password.type === 'password') {
+        password.type = 'text';
+        icon.classList.remove('fa-eye');
+        icon.classList.add('fa-eye-slash');
+    } else {
+        password.type = 'password';
+        icon.classList.remove('fa-eye-slash');
+        icon.classList.add('fa-eye');
+    }
+}
+</script>
+
+</body>
+</html>
                 </div>
 
                 <button>
