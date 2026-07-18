@@ -333,11 +333,6 @@ button:hover{
 
 @media(max-width:900px){
 
-.login-container{
-
-    grid-template-columns:1fr;
-
-}
 
 .login-left{
 
