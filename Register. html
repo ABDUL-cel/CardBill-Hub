@@ -22,7 +22,7 @@
             easier, faster and more secure.
         </p>
 
-        <img src="images/canvas.png" alt="">
+        <img src="images/register.png" alt="">
     </div>
 
 
@@ -76,8 +76,6 @@
     </div>
 
 </div>
-
-<script src="register.js"></script>
 
 </body>
 </html>
