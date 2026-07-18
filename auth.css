@@ -47,16 +47,16 @@ body{
     background:linear-gradient(135deg,#2563EB,#3B82F6);
 
     color:white;
-
+    display: block;
     padding:70px 50px;
-
 }
 
 .login-left img{
 
-    width:180px;
+    width:50px;
 
     margin-bottom:40px;
+    border-radius: 50px,
 
 }
 
