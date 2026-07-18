@@ -213,7 +213,7 @@ nav a:hover{
 
 .why{
 
-    background: Blue Gradien;
+     background: white;
 
     color:white;
 
@@ -370,7 +370,7 @@ justify-content:center;
     width: 90%;
     margin: 80px auto;
     text-align: center;
-    background: lightgray;
+     background: white;
 }
 
 .trusted h2{
@@ -434,7 +434,7 @@ justify-content:center;
 
     width:90%;
     margin:120px auto;
-
+      background: white;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -673,7 +673,7 @@ justify-content:center;
     width:90%;
     margin:120px auto;
     text-align:center;
-    background: lightgray;
+     background: white;
 
 }
 
