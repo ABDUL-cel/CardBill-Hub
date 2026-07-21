@@ -1,0 +1,187 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: Arial, sans-serif;
+
+}
+
+body {
+
+    background: #f8fafc;
+
+}
+
+.confirm-container {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+}
+
+.confirm-card {
+
+    width: 100%;
+
+    max-width: 500px;
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+}
+
+.back {
+
+    display: inline-block;
+
+    color: #2563eb;
+
+    text-decoration: none;
+
+    margin-bottom: 25px;
+
+    font-size: 18px;
+
+}
+
+h1 {
+
+    color: #0f172a;
+
+    margin-bottom: 10px;
+
+}
+
+.subtitle {
+
+    color: #64748b;
+
+    line-height: 1.5;
+
+    margin-bottom: 30px;
+
+}
+
+.transaction-details {
+
+    border-top: 1px solid #e2e8f0;
+
+}
+
+.detail {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 18px 0;
+
+    border-bottom: 1px solid #e2e8f0;
+
+    gap: 20px;
+
+}
+
+.detail span {
+
+    color: #64748b;
+
+}
+
+.detail strong {
+
+    color: #0f172a;
+
+    text-align: right;
+
+}
+
+.total {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background: #eff6ff;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    margin: 25px 0;
+
+}
+
+.total span {
+
+    color: #334155;
+
+    font-weight: bold;
+
+}
+
+.total strong {
+
+    color: #2563eb;
+
+    font-size: 24px;
+
+}
+
+.confirm-btn {
+
+    display: block;
+
+    width: 100%;
+
+    padding: 16px;
+
+    background: #2563eb;
+
+    color: white;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-size: 17px;
+
+}
+
+.confirm-btn:hover {
+
+    background: #1d4ed8;
+
+}
+
+@media (max-width: 500px) {
+
+    .confirm-card {
+
+        padding: 25px 20px;
+
+    }
+
+}
